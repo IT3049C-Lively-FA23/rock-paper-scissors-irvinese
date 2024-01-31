@@ -7,16 +7,17 @@
 Instructions to this assignment can be found [here](https://reedws.github.io/IT3049C/coursework/assignments/rock-paper-scissors/).
 - [x] update the assignment checks above to the correct link. - Done Automatically
 ## Checklist:
-- [ ] update the assignment checks above to the correct link
+- [ x] update the assignment checks above to the correct link
 - [ ] All tests are passing
-- [ ] filled out the self-evaluation.
-- [ ] filled out the self-reflection.
+- [x ] filled out the self-evaluation.
+- [x ] filled out the self-reflection.
 
 ## Self-Evaluation: 
 how many points out of 20 does your team deserve on this assignment. Revise the assignment grading guideline and assignment rubrics for guidance.
-
+I would say 16, The codes all good but it dosen't follow the test exactly, given the problems I listed in the reflection section it was kinda hard to actually check exactly what was and wasn't passing.
 ## Team Reflection:
 - Where did you encounter struggles today, and what did you do to deal with it?
-
+First of all is that github decided to finally change my account from Bob-ishakia to my actually account for some reason so I had to not only get everything back connected but also move the files from the Bob-ishakia file over to my new one. Also my debugger stopped working for me like half way through and I'm not really sure why, I'll have to fix it next project since there's too much stuff here to mess around with and given everything else that has happened this week, I don't want to risk losing any of this progress tha I already have
 
 ### How long it took us to finish this?
+three hours, give or take a couple of minutes
