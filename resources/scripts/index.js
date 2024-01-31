@@ -38,8 +38,8 @@ function updateGameHistoryUI(){
 
 // start-game-button EventListener
 startGameButton.addEventListener(`click`, function () {
-  const username = 
-  game = new RockPaperScissors(userName);
+  const username = userName.value
+  game = new RockPaperScissors(username);
   // Complete
 });
 
@@ -48,7 +48,7 @@ goButton.addEventListener(`click`, function () {
   
   const userSelection = userSelection.value;
 
-  game.play(userSelectionValue);
+  game.play(userSelection);
 
   updateScoreTallyUI();
 
