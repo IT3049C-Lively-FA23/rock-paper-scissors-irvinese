@@ -6,13 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Type your title here</title>
     <!-- Bootstrap Styles-->
-    <link rel="stylesheet" href="resources/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/styles/styles.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <!-- WORK FROM INSIDE THIS CONTAINER-->
+        <h1>Rock Paper Scissors</h1>
+
+        <div id= "welcome-screen">
+            <form id="name-form">
+                <label for="username">Type your name:</label>
+                <input type="text" id= "username" placeholder="Enter Name Here" name= "username" class="form-control">
+                <button id="start-game-button" class="blue btn btn-primary">Start Game!</button>
+            </form>
+        </div>
+
+        <div id= "game-screen">
+            <div id="score-tally">
+                <p id="score">User: 0 v CPU: 0</p>
+                <form id="game-form">
+                    <div class="form-group">
+                        <label for="user-selection">Select your choice:</label>
+                        <select id="user-selection" class="custom-select" name="user-selection">
+                            <option>Rock</option>
+                            <option>Paper</option>
+                            <option>Scissors</option>
+                        </select>
+                    <button id="go-button" class="btn btn-success">Go!</button>
+                <p id="game-history"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
 
     </div>
 
