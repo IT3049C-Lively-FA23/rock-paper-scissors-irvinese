@@ -56,6 +56,11 @@ goButton.addEventListener(`click`, function () {
 });
 
 // If you're doing the extra-credit, uncomment the below: reset-game-button
-// resetGameButton.addEventListener(`click`, function(e) { 
-  
-// });
+const resetGameButton = document.getElementById(`reset-game-button`)
+
+ resetGameButton.addEventListener(`click`, function(e) { 
+  game = new RockPaperScissors(userName);
+
+  updateScoreTallyUI();
+  updateGameHistoryUI();
+});
