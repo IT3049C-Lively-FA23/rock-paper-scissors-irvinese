@@ -26,7 +26,7 @@ function updateScoreTallyUI(){
 function updateGameHistoryUI(){
   const gameHistoryParagraph = document.getElementById(`game-history`);
 
-  gameHistoryParagraph.textContent = '';
+  game.gameHistoryParagraph.textContent = '';
 
   game.gameHistoryLog.array.forEach((entry) => {
     const entryElement = document.createElement('p');

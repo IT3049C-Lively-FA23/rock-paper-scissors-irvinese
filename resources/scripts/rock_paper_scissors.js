@@ -5,8 +5,8 @@ class RockPaperScissors {
     this.username = username;
     this.score = {
       user: 0,
-      cpu:0 
-    },
+      cpu: 0
+    }
     this.gameHistoryLog = [];
   }
 
@@ -55,7 +55,7 @@ class RockPaperScissors {
       return "lose";
     }
     if(userSelection === cpuSelection){
-      return `tie`;
+      return 'tie';
     }
 
   }
